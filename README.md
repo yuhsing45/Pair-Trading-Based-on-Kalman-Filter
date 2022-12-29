@@ -1,2 +1,3 @@
 # Pair-Trading-Based-on-Kalman-Filter
 Statistical Arbitrage Final Project Report
+The problem in Pair Trading is that the hedge ratio is constant in the holding period; however, the relation between two assets may not remain constant over time. In this project, we try to resolve this issue. Therefore, we implement the Kalman filter model to continuously monitor its value to adjust it accordingly. Besides, we also use rolling OLS and rolling TLS to make comparisons with Kalman Filter. Our Purpose of this project is to implement dynamic hedging ratio through Kalman filter to improve pairs trading strategy. We will compute the PnL, expected loss, expected gain, hit ratio and trading frequency to see our strategy performance.
